@@ -1,0 +1,70 @@
+html body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  min-height: 15vh;
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header > img {
+  width: 200px;
+  height: auto;
+}
+@media all and (max-width: 1999px) and (min-width: 768px) {
+  .header > img {
+    width: 240px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .header > img {
+    width: 280px;
+  }
+}
+
+.footer {
+  width: 100%;
+  min-height: 10vh;
+  background: green;
+}
+
+.main {
+  width: 100%;
+}
+.main--menus {
+  width: 100%;
+  min-height: 65vh;
+  padding: 50px 0 50px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main--menus-single {
+  width: 80%;
+  margin: 0;
+}
+@media all and (max-width: 1999px) and (min-width: 768px) {
+  .main--menus-single {
+    width: 40%;
+  }
+}
+@media all and (min-width: 1200px) {
+  .main--menus-single {
+    width: 20%;
+  }
+}
+.main--menus-single > img {
+  height: auto;
+  border: 2px solid black;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

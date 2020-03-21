@@ -1,0 +1,20 @@
+.header {
+  width: 100%;
+  min-height: 15vh;
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & > img {
+    width: 200px;
+    height: auto;
+    @include display-md {
+      width: 240px;
+    }
+    @include  display-lg {
+      width: 280px;
+    }
+  }
+
+}

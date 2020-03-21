@@ -1,0 +1,7 @@
+@mixin display-md {
+  @media all and (max-width: 1999px) and (min-width: 768px) { @content; }
+}
+
+@mixin display-lg {
+  @media all and (min-width: 1200px) { @content; }
+}

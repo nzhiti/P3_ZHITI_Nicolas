@@ -1,0 +1,28 @@
+.main {
+  width: 100%;
+  &--menus {
+    width: 100%;
+    min-height: 65vh;
+    padding: 50px 0 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    &-single {
+      width: 80%;
+      margin: 0;
+      @include display-md {
+        width: 40%;
+      }
+      @include display-lg {
+        width: 20%;
+      }
+      & > img {
+        height: auto;
+        border: 2px solid black;
+        width: 100%;
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
