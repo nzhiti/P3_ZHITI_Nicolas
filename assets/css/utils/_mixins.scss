@@ -5,3 +5,21 @@
 @mixin display-lg {
   @media all and (min-width: 1200px) { @content; }
 }
+
+@mixin fontBgGradient-2 {
+  background: -webkit-linear-gradient(0deg, $menu2Font1 10% , $menu2Font2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin fontBgGradient-3 {
+  background: -webkit-linear-gradient(10deg, $menu3Font1 10% , $menu3Font2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin fontBgGradient-4 {
+  background: -webkit-linear-gradient(10deg, $menu4Font1 10% , $menu4Font2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

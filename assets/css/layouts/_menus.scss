@@ -39,6 +39,7 @@
   }
 
   &-1 {
+    color: $menu1Font !important;
     background: $menu1Bg;
     & > p {
       font-family: 'Devonshire', cursive;
@@ -50,9 +51,11 @@
   }
 
   &-2 {
+    color: $menu2Font1 !important;
     background: $menu2Bg;
     & > p {
       font-family: 'Croissant One', cursive;
+      @include fontBgGradient-2;
     }
     & > h2 {
       font-family: 'Frank Ruhl Libre', serif;
@@ -61,9 +64,11 @@
   }
 
   &-3 {
+    color: $menu3Font2 !important;
     background: $menu3Bg;
     & > p {
-      font-family: 'Satisfy', cursive;
+      font-family: 'Dancing Script', cursive;
+      @include fontBgGradient-3;
     }
 
     & > h2 {
@@ -72,9 +77,11 @@
   }
 
   &-4 {
+    color: $menu4Font1 !important;
     background: $menu4Bg;
     & > p {
       font-family: 'Kaushan Script', cursive;
+      @include fontBgGradient-4;
     }
     & > h2 {
       font-family: "Segoe Print";

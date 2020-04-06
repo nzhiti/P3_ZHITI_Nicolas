@@ -116,6 +116,7 @@ html body {
   }
 }
 .main--menus-1 {
+  color: #3c1218 !important;
   background: #fcdfdb;
 }
 .main--menus-1 > p {
@@ -126,29 +127,41 @@ html body {
   text-transform: uppercase;
 }
 .main--menus-2 {
+  color: #c77412 !important;
   background: #fff5fe;
 }
 .main--menus-2 > p {
   font-family: "Croissant One", cursive;
+  background: -webkit-linear-gradient(0deg, #c77412 10%, #905bfd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .main--menus-2 > h2 {
   font-family: "Frank Ruhl Libre", serif;
   font-weight: bold;
 }
 .main--menus-3 {
+  color: #0887fb !important;
   background: #f9f9f9;
 }
 .main--menus-3 > p {
-  font-family: "Satisfy", cursive;
+  font-family: "Dancing Script", cursive;
+  background: -webkit-linear-gradient(10deg, #0431df 10%, #0887fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .main--menus-3 > h2 {
   font-family: "Segoe Print";
 }
 .main--menus-4 {
+  color: #72bf56 !important;
   background: #fdfffd;
 }
 .main--menus-4 > p {
   font-family: "Kaushan Script", cursive;
+  background: -webkit-linear-gradient(10deg, #72bf56 10%, #d9fdb8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .main--menus-4 > h2 {
   font-family: "Segoe Print";
@@ -164,9 +177,9 @@ html body {
 .main--next {
   margin-bottom: 50px;
   padding: 0;
-  background: green;
+  background: #579c87;
   border-radius: 10px;
-  color: yellow;
+  color: #fdcb46;
   width: 200px;
   text-align: center;
 }
