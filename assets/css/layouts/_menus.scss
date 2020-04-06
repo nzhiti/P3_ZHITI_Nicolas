@@ -41,6 +41,9 @@
   &-1 {
     color: $menu1Font !important;
     background: $menu1Bg;
+    & > i {
+      color: red;
+    }
     & > p {
       font-family: 'Devonshire', cursive;
     }

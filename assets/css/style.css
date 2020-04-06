@@ -119,6 +119,9 @@ html body {
   color: #3c1218 !important;
   background: #fcdfdb;
 }
+.main--menus-1 > i {
+  color: red;
+}
 .main--menus-1 > p {
   font-family: "Devonshire", cursive;
 }
