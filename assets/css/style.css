@@ -5,38 +5,69 @@ html body {
   margin: 0;
 }
 
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+html body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3vw;
+}
+@media all and (max-width: 1999px) and (min-width: 768px) {
+  html body {
+    font-size: 2.2vw;
+  }
+}
+@media all and (min-width: 1200px) {
+  html body {
+    font-size: 1.3vw;
+  }
+}
+
+@font-face {
+  font-family: "Segoe Print";
+  src: url("/assets/fonts/c455d94eee43dc4ceeb83c0c0fd0d4c8.eot");
+  /* IE9*/
+  src: url("/assets/fonts/c455d94eee43dc4ceeb83c0c0fd0d4c8.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/c455d94eee43dc4ceeb83c0c0fd0d4c8.woff2") format("woff2"), url("/assets/fonts/c455d94eee43dc4ceeb83c0c0fd0d4c8.woff") format("woff"), url("/assets/fonts/c455d94eee43dc4ceeb83c0c0fd0d4c8.ttf") format("truetype"), url("/assets/fonts/c455d94eee43dc4ceeb83c0c0fd0d4c8.svg#Segoe Print V1") format("svg");
+  /* iOS 4.1- */
+}
 .header {
   width: 100%;
   min-height: 15vh;
-  background: green;
+  background: #579c87;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.header > img {
-  width: 200px;
-  height: auto;
-}
-@media all and (max-width: 1999px) and (min-width: 768px) {
-  .header > img {
-    width: 240px;
-  }
-}
-@media all and (min-width: 1200px) {
-  .header > img {
-    width: 280px;
-  }
+.header > h1 {
+  color: #fdcb46;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 .footer {
   width: 100%;
   min-height: 10vh;
-  background: green;
+  background: #579c87;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  color: #fdcb46;
+  font-weight: bold;
+}
+.footer--mentions {
+  margin-left: 20px;
+}
+.footer--contact {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
 }
 
-.main {
-  width: 100%;
-}
 .main--menus {
   width: 100%;
   min-height: 65vh;
@@ -60,11 +91,88 @@ html body {
     width: 20%;
   }
 }
-.main--menus-single > img {
+.main--menus > a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: auto;
-  border: 2px solid black;
-  width: 100%;
+  -webkit-box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.2);
   margin-bottom: 50px;
+  width: 80%;
+  text-decoration: none;
+  color: inherit;
+}
+@media all and (max-width: 1999px) and (min-width: 768px) {
+  .main--menus > a {
+    width: 40%;
+  }
+}
+@media all and (min-width: 1200px) {
+  .main--menus > a {
+    width: 20%;
+  }
+}
+.main--menus-1 {
+  background: #fcdfdb;
+}
+.main--menus-1 > p {
+  font-family: "Devonshire", cursive;
+}
+.main--menus-1 > h2 {
+  font-family: "Segoe Print";
+  text-transform: uppercase;
+}
+.main--menus-2 {
+  background: #fff5fe;
+}
+.main--menus-2 > p {
+  font-family: "Croissant One", cursive;
+}
+.main--menus-2 > h2 {
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: bold;
+}
+.main--menus-3 {
+  background: #f9f9f9;
+}
+.main--menus-3 > p {
+  font-family: "Satisfy", cursive;
+}
+.main--menus-3 > h2 {
+  font-family: "Segoe Print";
+}
+.main--menus-4 {
+  background: #fdfffd;
+}
+.main--menus-4 > p {
+  font-family: "Kaushan Script", cursive;
+}
+.main--menus-4 > h2 {
+  font-family: "Segoe Print";
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main--next {
+  margin-bottom: 50px;
+  padding: 0;
+  background: green;
+  border-radius: 10px;
+  color: yellow;
+  width: 200px;
+  text-align: center;
+}
+.main--next > h4 {
+  padding: 0;
+  margin: 10px 30px 10px 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

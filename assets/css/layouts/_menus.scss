@@ -1,28 +1,83 @@
-.main {
+.main--menus {
   width: 100%;
-  &--menus {
-    width: 100%;
-    min-height: 65vh;
-    padding: 50px 0 50px 0;
+  min-height: 65vh;
+  padding: 50px 0 50px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  &-single {
+    width: 80%;
+    margin: 0;
+    @include display-md {
+      width: 40%;
+    }
+    @include display-lg {
+      width: 20%;
+    }
+  }
+
+  & > a {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    &-single {
-      width: 80%;
-      margin: 0;
-      @include display-md {
-        width: 40%;
-      }
-      @include display-lg {
-        width: 20%;
-      }
-      & > img {
-        height: auto;
-        border: 2px solid black;
-        width: 100%;
-        margin-bottom: 50px;
-      }
+    height: auto;
+    -webkit-box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.20);
+    box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.20);
+    margin-bottom: 50px;
+    width: 80%;
+    @include display-md {
+      width: 40%;
+    }
+    @include display-lg {
+      width: 20%;
+    }
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &-1 {
+    background: $menu1Bg;
+    & > p {
+      font-family: 'Devonshire', cursive;
+    }
+    & > h2 {
+      font-family: "Segoe Print";
+      text-transform: uppercase;
+    }
+  }
+
+  &-2 {
+    background: $menu2Bg;
+    & > p {
+      font-family: 'Croissant One', cursive;
+    }
+    & > h2 {
+      font-family: 'Frank Ruhl Libre', serif;
+      font-weight: bold;
+    }
+  }
+
+  &-3 {
+    background: $menu3Bg;
+    & > p {
+      font-family: 'Satisfy', cursive;
+    }
+
+    & > h2 {
+      font-family: "Segoe Print";
+    }
+  }
+
+  &-4 {
+    background: $menu4Bg;
+    & > p {
+      font-family: 'Kaushan Script', cursive;
+    }
+    & > h2 {
+      font-family: "Segoe Print";
     }
   }
 }

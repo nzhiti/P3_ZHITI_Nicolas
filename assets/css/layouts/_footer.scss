@@ -1,5 +1,19 @@
 .footer {
   width: 100%;
   min-height: 10vh;
-  background: green;
+  background: $primaryColour;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  color: $secondaryColour;
+  font-weight: bold;
+
+  &--mentions {
+    margin-left: 20px;
+  }
+  &--contact {
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+  }
 }

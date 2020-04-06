@@ -1,0 +1,20 @@
+html body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3vw;
+
+  @include display-md {
+    font-size: 2.2vw;
+  }
+  @include display-lg {
+    font-size: 1.3vw;
+  }
+}
+
+@font-face {font-family: "Segoe Print";
+  src: url("/assets/fonts/c455d94eee43dc4ceeb83c0c0fd0d4c8.eot"); /* IE9*/
+  src: url("/assets/fonts/c455d94eee43dc4ceeb83c0c0fd0d4c8.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("/assets/fonts/c455d94eee43dc4ceeb83c0c0fd0d4c8.woff2") format("woff2"), /* chrome、firefox */
+  url("/assets/fonts/c455d94eee43dc4ceeb83c0c0fd0d4c8.woff") format("woff"), /* chrome、firefox */
+  url("/assets/fonts/c455d94eee43dc4ceeb83c0c0fd0d4c8.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("/assets/fonts/c455d94eee43dc4ceeb83c0c0fd0d4c8.svg#Segoe Print V1") format("svg"); /* iOS 4.1- */
+}
