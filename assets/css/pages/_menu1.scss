@@ -1,0 +1,69 @@
+.menu1 {
+  font-family: "Segoe Print";
+  background: $menu1Bg;
+  height: 100%;
+  width: 100%;
+  font-size: 1.7vw;
+  color: $menu1Font;
+  padding: 100px 0 100px 0;
+
+  & i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  & h1 {
+    font-family: 'Devonshire', cursive;
+    font-size: 3vw;
+  }
+
+  &--header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  &--body {
+    width: 100%;
+    margin: 100px 0 100px 0;
+    &-title {
+      margin: 0 0 100px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    &-content {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      & > div {
+        width: 100%;
+        display: flex;
+        & > p {
+          width: 80%;
+          margin: 0 0 0 150px;
+        }
+
+        & > span {
+          width: 20%;
+        }
+      }
+
+    }
+  }
+
+  &--footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    & > i {
+      margin: 0 20px 0 0;
+    }
+  }
+}
