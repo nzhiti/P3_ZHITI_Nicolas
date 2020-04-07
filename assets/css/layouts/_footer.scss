@@ -1,19 +1,38 @@
 .footer {
   width: 100%;
-  min-height: 10vh;
   background: $primaryColour;
-  position: sticky;
+  position: fixed;
   display: flex;
   align-items: center;
   color: $secondaryColour;
   font-weight: bold;
+  bottom: 0;
+  height: 80px;
 
   &--mentions {
     margin-left: 20px;
+    &:hover {
+      animation: 1.4s shake infinite alternate;
+      cursor: pointer;
+    }
   }
   &--contact {
     position: absolute;
     right: 0;
     margin-right: 20px;
+    &:hover {
+      animation: 1.4s shake infinite alternate;
+      cursor: pointer;
+    }
   }
+
+  @keyframes shake {
+    0% { transform: skewX(-15deg); }
+    5% { transform: skewX(15deg); }
+    10% { transform: skewX(-15deg); }
+    15% { transform: skewX(15deg); }
+    20% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); }
+  }
+
 }
