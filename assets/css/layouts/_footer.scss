@@ -3,7 +3,9 @@
   background: $primaryColour;
   position: fixed;
   display: flex;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   color: $secondaryColour;
   font-weight: bold;
   bottom: 0;
@@ -13,17 +15,35 @@
     text-decoration: none;
     color: inherit;
   }
+
   &--mentions {
-    margin-left: 20px;
+    width: 100%;
+    text-align: center;
+    @include display-md {
+      width: 40%;
+      text-align: left;
+    }
+    @include display-lg {
+      width: 40%;
+      text-align: left;
+    }
     &:hover {
       animation: 1.4s shake infinite alternate;
       cursor: pointer;
     }
   }
   &--contact {
-    position: absolute;
-    right: 0;
-    margin-right: 20px;
+    width: 100%;
+    text-align: center;
+
+    @include display-md {
+      width: 40%;
+      text-align: right;
+    }
+    @include display-lg {
+      width: 40%;
+      text-align: right;
+    }
     &:hover {
       animation: 1.4s shake infinite alternate;
       cursor: pointer;

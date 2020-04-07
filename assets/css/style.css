@@ -29,25 +29,25 @@ body {
 
 html body {
   font-family: "Montserrat", sans-serif;
-  font-size: 42px;
+  font-size: 20px;
 }
-@media all and (min-width: 768px) {
+@media all and (min-width: 699px) {
   html body {
-    font-size: 34px;
+    font-size: 26px;
   }
 }
 @media all and (min-width: 992px) {
   html body {
-    font-size: 24px;
+    font-size: 28px;
   }
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 40px;
 }
-@media all and (min-width: 768px) {
+@media all and (min-width: 699px) {
   h1 {
-    font-size: 72px;
+    font-size: 62px;
   }
 }
 @media all and (min-width: 992px) {
@@ -125,7 +125,9 @@ h1 {
   background: #579c87;
   position: fixed;
   display: flex;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   color: #fdcb46;
   font-weight: bold;
   bottom: 0;
@@ -136,16 +138,40 @@ h1 {
   color: inherit;
 }
 .footer--mentions {
-  margin-left: 20px;
+  width: 100%;
+  text-align: center;
+}
+@media all and (min-width: 699px) {
+  .footer--mentions {
+    width: 40%;
+    text-align: left;
+  }
+}
+@media all and (min-width: 992px) {
+  .footer--mentions {
+    width: 40%;
+    text-align: left;
+  }
 }
 .footer--mentions:hover {
   animation: 1.4s shake infinite alternate;
   cursor: pointer;
 }
 .footer--contact {
-  position: absolute;
-  right: 0;
-  margin-right: 20px;
+  width: 100%;
+  text-align: center;
+}
+@media all and (min-width: 699px) {
+  .footer--contact {
+    width: 40%;
+    text-align: right;
+  }
+}
+@media all and (min-width: 992px) {
+  .footer--contact {
+    width: 40%;
+    text-align: right;
+  }
 }
 .footer--contact:hover {
   animation: 1.4s shake infinite alternate;
@@ -178,15 +204,38 @@ h1 {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 80px 0 80px 0;
+  padding: 60px 0 60px 0;
+}
+@media all and (min-width: 699px) {
+  .main--menus {
+    padding: 60px 80px 60px 80px;
+  }
+}
+@media all and (min-width: 992px) {
+  .main--menus {
+    padding: 60px 150px 60px 150px;
+  }
 }
 .main--menus-single {
   -webkit-box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.2);
-  width: 350px;
-  height: 550px;
-  margin: 0 30px 60px 30px;
+  width: 250px;
+  height: 400px;
+  margin: 0 50px 40px 50px;
+}
+@media all and (min-width: 699px) {
+  .main--menus-single {
+    width: 400px;
+    height: 600px;
+  }
+}
+@media all and (min-width: 992px) {
+  .main--menus-single {
+    width: 400px;
+    height: 600px;
+    margin: 0 70px 60px 70px;
+  }
 }
 .main--menus-single > div {
   width: 100%;
@@ -235,7 +284,7 @@ h1 {
   flex-wrap: wrap;
 }
 .main--next {
-  margin-bottom: 120px;
+  margin-bottom: 140px;
   padding: 0;
   background: #579c87;
   border-radius: 10px;
