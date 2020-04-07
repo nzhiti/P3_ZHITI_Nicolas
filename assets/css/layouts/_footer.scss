@@ -31,12 +31,12 @@
   }
 
   @keyframes shake {
-    0% { transform: skewX(-15deg); }
-    5% { transform: skewX(15deg); }
-    10% { transform: skewX(-15deg); }
-    15% { transform: skewX(15deg); }
-    20% { transform: skewX(0deg); }
-    100% { transform: skewX(0deg); }
+    0% { transform: translateX(-10px); }
+    5% { transform: translateX(0); }
+    10% { transform: translateX(10px); }
+    15% { transform: translateX(-10px); }
+    20% { transform: translateX(0); }
+    100% { transform: translateX(10px); }
   }
 
 }

@@ -1,9 +1,13 @@
-@mixin display-md {
-  @media all and (min-width: 1217px) { @content; }
+@mixin display-xlg {
+  @media all and (min-width: 1200px) { @content; }
 }
 
-@mixin display-sm {
-  @media all and (min-width: 768px) and (max-width: 1216px) { @content; }
+@mixin display-lg {
+  @media all and (min-width: 992px) { @content; }
+}
+
+@mixin display-md {
+  @media all and (min-width: 768px) { @content; }
 }
 
 @mixin fontBgGradient-2 {

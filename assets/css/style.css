@@ -29,16 +29,30 @@ body {
 
 html body {
   font-family: "Montserrat", sans-serif;
-  font-size: 4vw;
+  font-size: 42px;
 }
-@media all and (min-width: 768px) and (max-width: 1216px) {
+@media all and (min-width: 768px) {
   html body {
-    font-size: 3vw;
+    font-size: 34px;
   }
 }
-@media all and (min-width: 1217px) {
+@media all and (min-width: 992px) {
   html body {
-    font-size: 1.7vw;
+    font-size: 24px;
+  }
+}
+
+h1 {
+  font-size: 80px;
+}
+@media all and (min-width: 768px) {
+  h1 {
+    font-size: 72px;
+  }
+}
+@media all and (min-width: 992px) {
+  h1 {
+    font-size: 64px;
   }
 }
 
@@ -139,39 +153,40 @@ html body {
 }
 @keyframes shake {
   0% {
-    transform: skewX(-15deg);
+    transform: translateX(-10px);
   }
   5% {
-    transform: skewX(15deg);
+    transform: translateX(0);
   }
   10% {
-    transform: skewX(-15deg);
+    transform: translateX(10px);
   }
   15% {
-    transform: skewX(15deg);
+    transform: translateX(-10px);
   }
   20% {
-    transform: skewX(0deg);
+    transform: translateX(0);
   }
   100% {
-    transform: skewX(0deg);
+    transform: translateX(10px);
   }
 }
 
 .main--menus {
   width: 100%;
-  min-height: 60%;
-  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 50px;
+  padding: 80px 0 80px 0;
 }
-@media all and (min-width: 1217px) {
-  .main--menus {
-    padding: 100px;
-  }
+.main--menus-single {
+  -webkit-box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  height: 550px;
+  margin: 0 30px 60px 30px;
 }
 .main--menus-single > div {
   width: 100%;
@@ -189,48 +204,9 @@ html body {
   transition: all ease-in-out 350ms;
   transform-origin: 50% 50%;
 }
-@media all and (min-width: 1217px) {
-  .main--menus-single {
-    width: 40%;
-  }
-}
 .main--menus > a {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  -webkit-box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.2);
-  margin: 0 30px 50px 30px;
-  width: 70%;
-  height: 700px;
   text-decoration: none;
   color: inherit;
-}
-@media all and (min-width: 1217px) {
-  .main--menus > a {
-    width: 40%;
-    height: 800px;
-    margin: 0 50px 50px 50px;
-  }
-}
-@media all and (min-width: 768px) and (max-width: 1216px) {
-  .main--menus > a {
-    width: 45%;
-    margin: 0 50px 50px 50px;
-  }
-}
-.main--menus > a > p {
-  font-size: 3vh;
-}
-@media all and (min-width: 1217px) {
-  .main--menus > a > p {
-    font-size: 3vh;
-  }
-}
-.main--menus > a > h2 {
-  font-size: 4vh;
 }
 .main--menus-1 {
   color: #3c1218 !important;
@@ -296,7 +272,6 @@ html body {
   background: #fcdfdb;
   height: 100%;
   width: 100%;
-  font-size: 1.7vw;
   color: #3c1218;
   padding: 100px 0 100px 0;
 }
@@ -307,7 +282,6 @@ html body {
 }
 .menu1 h1 {
   font-family: "Devonshire", cursive;
-  font-size: 3vw;
 }
 .menu1--header {
   display: flex;
@@ -337,11 +311,12 @@ html body {
   display: flex;
 }
 .menu1--body-content > div > p {
-  width: 80%;
+  width: 70%;
   margin: 0 0 0 150px;
 }
 .menu1--body-content > div > span {
   width: 20%;
+  font-weight: bolder;
 }
 .menu1--footer {
   display: flex;

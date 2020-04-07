@@ -3,7 +3,6 @@
   background: $menu1Bg;
   height: 100%;
   width: 100%;
-  font-size: 1.7vw;
   color: $menu1Font;
   padding: 100px 0 100px 0;
 
@@ -15,7 +14,6 @@
 
   & h1 {
     font-family: 'Devonshire', cursive;
-    font-size: 3vw;
   }
 
   &--header {
@@ -45,12 +43,13 @@
         width: 100%;
         display: flex;
         & > p {
-          width: 80%;
+          width: 70%;
           margin: 0 0 0 150px;
         }
 
         & > span {
           width: 20%;
+          font-weight: bolder;
         }
       }
 
