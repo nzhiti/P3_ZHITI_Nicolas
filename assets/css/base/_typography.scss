@@ -21,6 +21,29 @@ h1 {
   }
 }
 
+h2 {
+  font-size: 22px;
+  @include display-md {
+    font-size: 36px;
+  }
+  @include display-lg {
+    font-size: 42px;
+  }
+}
+
+h3 {
+  font-size: 17px;
+  @include display-md {
+    font-size: 22px;
+  }
+  @include display-lg {
+    font-size: 26px;
+  }
+}
+
+
+
+
 @font-face {font-family: "Segoe Print";
   src: url("/assets/fonts/c455d94eee43dc4ceeb83c0c0fd0d4c8.eot"); /* IE9*/
   src: url("/assets/fonts/c455d94eee43dc4ceeb83c0c0fd0d4c8.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */

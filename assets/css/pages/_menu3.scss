@@ -1,5 +1,4 @@
-
-.page--menu1 {
+.page--menu2 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -16,14 +15,14 @@
   }
 }
 
-.menu1 {
-  font-family: "Segoe Print";
-  background: $menu1Bg;
+.menu2 {
+  font-family: "Frank Ruhl Libre";
+  background: $menu2Bg;
   width: 80%;
   height: 100%;
   padding: 60px 0 60px 0;
   margin-bottom: 140px;
-  color: $menu1Font;
+  color: $menu2Font1;
 
   & i {
   display: flex;
@@ -32,7 +31,8 @@
 }
 
   & h2 {
-    font-family: 'Devonshire', cursive;
+    font-family: 'Croissant One';
+    @include fontBgGradient-2;
   }
 
   &--header {
@@ -69,25 +69,69 @@
         @include display-md {
           width: 30%;
         }
-        &:before {
-          content: "";
-          position: absolute;
-          height: 3px;
-          background: $menu1Font;
-          bottom: 0;
-          left: 0;
-          width: 0;
-          transition: width ease-in-out 250ms;
-        }
-        &:hover:before {
-          width: 100%;
-        }
       }
 
       & > img {
         width: 25%;
         @include display-md {
           width: 35%;
+        }
+      }
+
+      &-1 {
+        & > h3 {
+          color: $menu2Font1;
+          &:before {
+            content: "";
+            position: absolute;
+            height: 3px;
+            background: $menu2Font1;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            transition: width ease-in-out 250ms;
+          }
+          &:hover:before {
+            width: 100%;
+          }
+        }
+      }
+
+      &-2 {
+        & > h3 {
+          color: #a56799;
+          &:before {
+            content: "";
+            position: absolute;
+            height: 3px;
+            background: #a56799;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            transition: width ease-in-out 250ms;
+          }
+          &:hover:before {
+            width: 100%;
+          }
+        }
+      }
+
+      &-3 {
+        & > h3 {
+          color: #6e4ccc;
+          &:before {
+            content: "";
+            position: absolute;
+            height: 3px;
+            background: #6e4ccc;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            transition: width ease-in-out 250ms;
+          }
+          &:hover:before {
+            width: 100%;
+          }
         }
       }
     }
@@ -128,7 +172,11 @@
           font-weight: bolder;
         }
       }
+      &-2 {
+        color: #a56799;
+      }
       &-3 {
+        color: #6e4ccc;
         & > div {
           & > p {
             width: 100%;
