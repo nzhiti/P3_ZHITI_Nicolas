@@ -696,7 +696,7 @@ h3 {
   margin: 0 20px 0 0;
 }
 
-.page--menu2 {
+.page--menu3 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -704,45 +704,45 @@ h3 {
   min-height: 100%;
   width: 100%;
 }
-.page--menu2 > h1 {
+.page--menu3 > h1 {
   font-size: 28px;
   color: #353535;
   margin: 80px 0 30px 0;
 }
 @media all and (min-width: 699px) {
-  .page--menu2 > h1 {
+  .page--menu3 > h1 {
     font-size: 36px;
   }
 }
 
-.menu2 {
-  font-family: "Frank Ruhl Libre";
-  background: #fff5fe;
+.menu3 {
+  font-family: "Segoe Print";
+  background: #f9f9f9;
   width: 80%;
   height: 100%;
   padding: 60px 0 60px 0;
   margin-bottom: 140px;
-  color: #c77412;
+  color: black;
 }
-.menu2 i {
+.menu3 i {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.menu2 h2 {
-  font-family: "Croissant One";
-  background: -webkit-linear-gradient(0deg, #c77412 10%, #905bfd 100%);
+.menu3 h2 {
+  font-family: "Dancing Script";
+  background: -webkit-linear-gradient(10deg, #0431df 10%, #0887fb 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.menu2--header {
+.menu3--header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
-.menu2--body {
+.menu3--body {
   width: 100%;
   margin: 100px 0 100px 0;
   display: flex;
@@ -750,7 +750,7 @@ h3 {
   justify-content: center;
   align-items: center;
 }
-.menu2--body-title {
+.menu3--body-title {
   margin: 0 0 100px 0;
   display: flex;
   justify-content: center;
@@ -758,11 +758,11 @@ h3 {
   width: 90%;
 }
 @media all and (min-width: 699px) {
-  .menu2--body-title {
+  .menu3--body-title {
     width: 80%;
   }
 }
-.menu2--body-title > h3 {
+.menu3--body-title > h3 {
   position: relative;
   cursor: pointer;
   margin: 0 20px 0 20px;
@@ -770,72 +770,72 @@ h3 {
   text-align: center;
 }
 @media all and (min-width: 699px) {
-  .menu2--body-title > h3 {
+  .menu3--body-title > h3 {
     width: 30%;
   }
 }
-.menu2--body-title > img {
+.menu3--body-title > img {
   width: 25%;
 }
 @media all and (min-width: 699px) {
-  .menu2--body-title > img {
+  .menu3--body-title > img {
     width: 35%;
   }
 }
-.menu2--body-title-1 > h3 {
-  color: #c77412;
+.menu3--body-title-1 > h3 {
+  color: black;
 }
-.menu2--body-title-1 > h3:before {
+.menu3--body-title-1 > h3:before {
   content: "";
   position: absolute;
   height: 3px;
-  background: #c77412;
+  background: black;
   bottom: 0;
   left: 0;
   width: 0;
   transition: width ease-in-out 250ms;
 }
-.menu2--body-title-1 > h3:hover:before {
+.menu3--body-title-1 > h3:hover:before {
   width: 100%;
 }
-.menu2--body-title-2 > h3 {
-  color: #a56799;
+.menu3--body-title-2 > h3 {
+  color: black;
 }
-.menu2--body-title-2 > h3:before {
+.menu3--body-title-2 > h3:before {
   content: "";
   position: absolute;
   height: 3px;
-  background: #a56799;
+  background: black;
   bottom: 0;
   left: 0;
   width: 0;
   transition: width ease-in-out 250ms;
 }
-.menu2--body-title-2 > h3:hover:before {
+.menu3--body-title-2 > h3:hover:before {
   width: 100%;
 }
-.menu2--body-title-3 > h3 {
-  color: #6e4ccc;
+.menu3--body-title-3 > h3 {
+  color: black;
 }
-.menu2--body-title-3 > h3:before {
+.menu3--body-title-3 > h3:before {
   content: "";
   position: absolute;
   height: 3px;
-  background: #6e4ccc;
+  background: black;
   bottom: 0;
   left: 0;
   width: 0;
   transition: width ease-in-out 250ms;
 }
-.menu2--body-title-3 > h3:hover:before {
+.menu3--body-title-3 > h3:hover:before {
   width: 100%;
 }
-.menu2--body-content {
+.menu3--body-content {
   display: flex;
   flex-direction: column;
   width: 80%;
 }
-.menu2--body-content > div {
+.menu3--body-content > div {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -845,57 +845,57 @@ h3 {
   margin-bottom: 20px;
 }
 @media all and (min-width: 699px) {
-  .menu2--body-content > div {
+  .menu3--body-content > div {
     flex-direction: row;
   }
 }
-.menu2--body-content > div > p {
+.menu3--body-content > div > p {
   width: 100%;
 }
 @media all and (min-width: 699px) {
-  .menu2--body-content > div > p {
+  .menu3--body-content > div > p {
     width: 80%;
   }
 }
 @media all and (min-width: 992px) {
-  .menu2--body-content > div > p {
+  .menu3--body-content > div > p {
     width: 80%;
   }
 }
-.menu2--body-content > div > span {
+.menu3--body-content > div > span {
   text-align: center;
   width: 100%;
   font-weight: bolder;
 }
 @media all and (min-width: 699px) {
-  .menu2--body-content > div > span {
+  .menu3--body-content > div > span {
     width: 20%;
   }
 }
 @media all and (min-width: 992px) {
-  .menu2--body-content > div > span {
+  .menu3--body-content > div > span {
     width: 20%;
   }
 }
-.menu2--body-content-2 {
-  color: #a56799;
+.menu3--body-content-2 {
+  color: black;
 }
-.menu2--body-content-3 {
-  color: #6e4ccc;
+.menu3--body-content-3 {
+  color: black;
 }
-.menu2--body-content-3 > div > p {
+.menu3--body-content-3 > div > p {
   width: 100%;
 }
-.menu2--footer {
+.menu3--footer {
   display: flex;
   justify-content: center;
   width: 100%;
 }
-.menu2--footer > i {
+.menu3--footer > i {
   margin: 0 20px 0 0;
 }
 
-.page--menu2 {
+.page--menu4 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -903,45 +903,45 @@ h3 {
   min-height: 100%;
   width: 100%;
 }
-.page--menu2 > h1 {
+.page--menu4 > h1 {
   font-size: 28px;
   color: #353535;
   margin: 80px 0 30px 0;
 }
 @media all and (min-width: 699px) {
-  .page--menu2 > h1 {
+  .page--menu4 > h1 {
     font-size: 36px;
   }
 }
 
-.menu2 {
-  font-family: "Frank Ruhl Libre";
-  background: #fff5fe;
+.menu4 {
+  font-family: "Segoe Print";
+  background: #fdfffd;
   width: 80%;
   height: 100%;
   padding: 60px 0 60px 0;
   margin-bottom: 140px;
-  color: #c77412;
+  color: black;
 }
-.menu2 i {
+.menu4 i {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.menu2 h2 {
-  font-family: "Croissant One";
-  background: -webkit-linear-gradient(0deg, #c77412 10%, #905bfd 100%);
+.menu4 h2 {
+  font-family: "Kaushan Script";
+  background: -webkit-linear-gradient(10deg, #72bf56 10%, #d9fdb8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.menu2--header {
+.menu4--header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
-.menu2--body {
+.menu4--body {
   width: 100%;
   margin: 100px 0 100px 0;
   display: flex;
@@ -949,7 +949,7 @@ h3 {
   justify-content: center;
   align-items: center;
 }
-.menu2--body-title {
+.menu4--body-title {
   margin: 0 0 100px 0;
   display: flex;
   justify-content: center;
@@ -957,11 +957,11 @@ h3 {
   width: 90%;
 }
 @media all and (min-width: 699px) {
-  .menu2--body-title {
+  .menu4--body-title {
     width: 80%;
   }
 }
-.menu2--body-title > h3 {
+.menu4--body-title > h3 {
   position: relative;
   cursor: pointer;
   margin: 0 20px 0 20px;
@@ -969,72 +969,72 @@ h3 {
   text-align: center;
 }
 @media all and (min-width: 699px) {
-  .menu2--body-title > h3 {
+  .menu4--body-title > h3 {
     width: 30%;
   }
 }
-.menu2--body-title > img {
+.menu4--body-title > img {
   width: 25%;
 }
 @media all and (min-width: 699px) {
-  .menu2--body-title > img {
+  .menu4--body-title > img {
     width: 35%;
   }
 }
-.menu2--body-title-1 > h3 {
-  color: #c77412;
+.menu4--body-title-1 > h3 {
+  color: black;
 }
-.menu2--body-title-1 > h3:before {
+.menu4--body-title-1 > h3:before {
   content: "";
   position: absolute;
   height: 3px;
-  background: #c77412;
+  background: black;
   bottom: 0;
   left: 0;
   width: 0;
   transition: width ease-in-out 250ms;
 }
-.menu2--body-title-1 > h3:hover:before {
+.menu4--body-title-1 > h3:hover:before {
   width: 100%;
 }
-.menu2--body-title-2 > h3 {
-  color: #a56799;
+.menu4--body-title-2 > h3 {
+  color: black;
 }
-.menu2--body-title-2 > h3:before {
+.menu4--body-title-2 > h3:before {
   content: "";
   position: absolute;
   height: 3px;
-  background: #a56799;
+  background: black;
   bottom: 0;
   left: 0;
   width: 0;
   transition: width ease-in-out 250ms;
 }
-.menu2--body-title-2 > h3:hover:before {
+.menu4--body-title-2 > h3:hover:before {
   width: 100%;
 }
-.menu2--body-title-3 > h3 {
-  color: #6e4ccc;
+.menu4--body-title-3 > h3 {
+  color: black;
 }
-.menu2--body-title-3 > h3:before {
+.menu4--body-title-3 > h3:before {
   content: "";
   position: absolute;
   height: 3px;
-  background: #6e4ccc;
+  background: black;
   bottom: 0;
   left: 0;
   width: 0;
   transition: width ease-in-out 250ms;
 }
-.menu2--body-title-3 > h3:hover:before {
+.menu4--body-title-3 > h3:hover:before {
   width: 100%;
 }
-.menu2--body-content {
+.menu4--body-content {
   display: flex;
   flex-direction: column;
   width: 80%;
 }
-.menu2--body-content > div {
+.menu4--body-content > div {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -1044,53 +1044,53 @@ h3 {
   margin-bottom: 20px;
 }
 @media all and (min-width: 699px) {
-  .menu2--body-content > div {
+  .menu4--body-content > div {
     flex-direction: row;
   }
 }
-.menu2--body-content > div > p {
+.menu4--body-content > div > p {
   width: 100%;
 }
 @media all and (min-width: 699px) {
-  .menu2--body-content > div > p {
+  .menu4--body-content > div > p {
     width: 80%;
   }
 }
 @media all and (min-width: 992px) {
-  .menu2--body-content > div > p {
+  .menu4--body-content > div > p {
     width: 80%;
   }
 }
-.menu2--body-content > div > span {
+.menu4--body-content > div > span {
   text-align: center;
   width: 100%;
   font-weight: bolder;
 }
 @media all and (min-width: 699px) {
-  .menu2--body-content > div > span {
+  .menu4--body-content > div > span {
     width: 20%;
   }
 }
 @media all and (min-width: 992px) {
-  .menu2--body-content > div > span {
+  .menu4--body-content > div > span {
     width: 20%;
   }
 }
-.menu2--body-content-2 {
-  color: #a56799;
+.menu4--body-content-2 {
+  color: black;
 }
-.menu2--body-content-3 {
-  color: #6e4ccc;
+.menu4--body-content-3 {
+  color: black;
 }
-.menu2--body-content-3 > div > p {
+.menu4--body-content-3 > div > p {
   width: 100%;
 }
-.menu2--footer {
+.menu4--footer {
   display: flex;
   justify-content: center;
   width: 100%;
 }
-.menu2--footer > i {
+.menu4--footer > i {
   margin: 0 20px 0 0;
 }
 

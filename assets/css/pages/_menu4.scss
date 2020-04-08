@@ -1,4 +1,4 @@
-.page--menu2 {
+.page--menu4 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -15,14 +15,14 @@
   }
 }
 
-.menu2 {
-  font-family: "Frank Ruhl Libre";
-  background: $menu2Bg;
+.menu4 {
+  font-family: "Segoe Print";
+  background: $menu4Bg;
   width: 80%;
   height: 100%;
   padding: 60px 0 60px 0;
   margin-bottom: 140px;
-  color: $menu2Font1;
+  color: black;
 
   & i {
   display: flex;
@@ -31,8 +31,8 @@
 }
 
   & h2 {
-    font-family: 'Croissant One';
-    @include fontBgGradient-2;
+    font-family: 'Kaushan Script';
+    @include fontBgGradient-4;
   }
 
   &--header {
@@ -80,12 +80,12 @@
 
       &-1 {
         & > h3 {
-          color: $menu2Font1;
+          color: black;
           &:before {
             content: "";
             position: absolute;
             height: 3px;
-            background: $menu2Font1;
+            background: black;
             bottom: 0;
             left: 0;
             width: 0;
@@ -99,12 +99,12 @@
 
       &-2 {
         & > h3 {
-          color: #a56799;
+          color: black;
           &:before {
             content: "";
             position: absolute;
             height: 3px;
-            background: #a56799;
+            background: black;
             bottom: 0;
             left: 0;
             width: 0;
@@ -118,12 +118,12 @@
 
       &-3 {
         & > h3 {
-          color: #6e4ccc;
+          color: black;
           &:before {
             content: "";
             position: absolute;
             height: 3px;
-            background: #6e4ccc;
+            background: black;
             bottom: 0;
             left: 0;
             width: 0;
@@ -173,10 +173,10 @@
         }
       }
       &-2 {
-        color: #a56799;
+        color: black;
       }
       &-3 {
-        color: #6e4ccc;
+        color: black;
         & > div {
           & > p {
             width: 100%;
