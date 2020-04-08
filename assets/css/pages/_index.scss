@@ -21,7 +21,7 @@
       margin: 10px 30px 10px 30px;
       &:after {
         content: ' .';
-        animation: dots 1s steps(5, end) infinite;
+        animation: dots 1.5s steps(5, end) infinite;
       }
 
       @keyframes dots {

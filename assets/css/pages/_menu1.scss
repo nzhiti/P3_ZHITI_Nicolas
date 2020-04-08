@@ -6,15 +6,21 @@
   align-items: center;
   min-height: 100%;
   width: 100%;
+  & > h1 {
+    font-size: 36px;
+    color: #353535;
+    margin: 80px 0 30px 0;
+  }
 }
 
 .menu1 {
   font-family: "Segoe Print";
   background: $menu1Bg;
   width: 80%;
-  height: 80%;
+  height: 100%;
+  padding: 60px 0 60px 0;
+  margin-bottom: 140px;
   color: $menu1Font;
-  padding: 100px 0 100px 0;
 
   & i {
   display: flex;
@@ -37,32 +43,65 @@
   &--body {
     width: 100%;
     margin: 100px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     &-title {
       margin: 0 0 100px 0;
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
-      width: 100%;
+      width: 80%;
+      & > h3 {
+        position: relative;
+        cursor: pointer;
+        margin: 0 20px 0 20px;
+        width: 40%;
+        text-align: center;
+        &:before {
+          content: "";
+          position: absolute;
+          height: 3px;
+          background: $menu1Font;
+          bottom: 0;
+          left: 0;
+          width: 0;
+          transition: width ease-in-out 250ms;
+        }
+        &:hover:before {
+          width: 100%;
+        }
+      }
+
+      & > img {
+        width: 30%;
+      }
     }
 
     &-content {
       display: flex;
       flex-direction: column;
-      width: 100%;
+      width: 80%;
       & > div {
         width: 100%;
         display: flex;
+        justify-content: center;
         & > p {
-          width: 70%;
-          margin: 0 0 0 150px;
+          width: 90%;
         }
-
         & > span {
-          width: 20%;
+          width: 10%;
           font-weight: bolder;
         }
       }
-
+      &-3 {
+        & > div {
+          & > p {
+            width: 100%;
+          }
+        }
+      }
     }
   }
 
