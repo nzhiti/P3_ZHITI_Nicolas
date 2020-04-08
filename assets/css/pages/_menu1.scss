@@ -1,8 +1,18 @@
+
+.page--menu1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100%;
+  width: 100%;
+}
+
 .menu1 {
   font-family: "Segoe Print";
   background: $menu1Bg;
-  height: 100%;
-  width: 100%;
+  width: 80%;
+  height: 80%;
   color: $menu1Font;
   padding: 100px 0 100px 0;
 
@@ -12,7 +22,7 @@
   justify-content: center;
 }
 
-  & h1 {
+  & h2 {
     font-family: 'Devonshire', cursive;
   }
 
