@@ -1,0 +1,27 @@
+.mentions-legales {
+  display: flex;
+  justify-content: center;
+  color: grey;
+  margin: 50px 0 130px 0;
+  @include display-md {
+    margin: 140px 0 220px 0;
+  }
+
+  &-s {
+    width: 80%;
+    & h1 {
+      color: $secondaryColour;
+      margin-bottom: 50px;
+    }
+
+    & h2 {
+      color: black;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    & p {
+      margin-bottom: 20px;
+    }
+  }
+}

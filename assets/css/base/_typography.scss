@@ -1,33 +1,33 @@
 html body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 
   @include display-md {
-    font-size: 26px;
+    font-size: 18px;
   }
   @include display-lg {
-    font-size: 28px;
+    font-size: 24px;
   }
 
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 30px;
   @include display-md {
-    font-size: 62px;
+    font-size: 52px;
   }
   @include display-lg {
-    font-size: 64px;
+    font-size: 54px;
   }
 }
 
 h2 {
   font-size: 22px;
   @include display-md {
-    font-size: 36px;
+    font-size: 30px;
   }
   @include display-lg {
-    font-size: 42px;
+    font-size: 38px;
   }
 }
 
